@@ -17,6 +17,8 @@
  * Define Global Variables
  * 
 */
+const sections =Array.from(document.querySelectorAll('section'));
+const menu = document.getElementById('navbar__list');
 
 
 /**
@@ -24,7 +26,15 @@
  * Start Helper Functions
  * 
 */
-
+function createListItem() {
+    for (section of sections) {
+        scetionName = section.getattribute('data-nav')ك
+        sectionId = section.getattribute('id');
+        listItem = document.createElement('li');
+        listItem.innerHtml = `<a class ="menu__link" href="${sectionId}">${scetionName}</a>`;
+        menu.appendChild(listItem);
+    }
+}
 
 
 /**
