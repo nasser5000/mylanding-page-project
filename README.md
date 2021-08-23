@@ -2,7 +2,9 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+- [Instructions](#instructions)
+- [what is the plan](#plan)
+- [in the end](#end)
 
 ## Instructions
 
@@ -11,3 +13,15 @@ The starter project has some HTML and CSS styling to display a static version of
 To get started, open `js/app.js` and start building out the app's functionality
 
 For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+
+## what is the plan {#plan}
+
+1. i create the createNavItemHTML function that is create the navbar anlist
+2. i create the createListItem function that is create the unorderlist item
+3. put the list item in the top from my page
+4. create the click and scroll events
+
+## in the end {#end}
+
+i want to thnks every instructors in udacity team to this course
+thank you very much
